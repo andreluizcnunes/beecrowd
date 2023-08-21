@@ -7,9 +7,7 @@ public class Main1005 {
     
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
-
-        
+        Scanner sc = new Scanner(System.in);        
 
             double A = sc.nextDouble();
             double B = sc.nextDouble();
@@ -20,8 +18,6 @@ public class Main1005 {
     
                 System.out.format("MEDIA = %.5f%n", media);
             }
-
-
 
         sc.close();
     }
